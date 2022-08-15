@@ -9,7 +9,6 @@ let interval = setInterval(function () {
 
 button.addEventListener("click", function handleClick() {
   tempo = 60000 / parseInt(document.getElementById("bpm").value);
-  console.log(tempo);
   clearInterval(interval);
   interval = setInterval(function () {
     click.play();
